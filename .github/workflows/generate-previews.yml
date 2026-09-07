@@ -1,14 +1,10 @@
 name: Generate showcase previews
 
 on:
-  push:
-    paths:
-      - 'scripts/generate_showcase_previews.py'
-      - '.github/workflows/generate-previews.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   previews:
@@ -18,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -30,14 +26,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Generate sanitized screenshots
         run: python scripts/generate_showcase_previews.py
-      - name: Commit generated previews
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/nexus-*.png
-          if git diff --cached --quiet; then
-            echo 'No preview changes to commit.'
-          else
-            git commit -m 'Refresh high-quality Nexus AI previews [skip ci]'
-            git push
-          fi
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexus-ai-showcase-previews
+          path: assets/nexus-*.png
+          if-no-files-found: error
