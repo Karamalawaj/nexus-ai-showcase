@@ -79,6 +79,10 @@ Client Store
 
 This diagram intentionally stays at a portfolio-safe level and does not expose private infrastructure, secrets, internal deployment configuration, or proprietary implementation details.
 
+## Reusable Engineering Resource
+
+The repository now includes a practical, implementation-agnostic [AI Commerce SaaS Security & Readiness Checklist](docs/ai-commerce-saas-checklist.md) covering tenant isolation, API-key handling, widget/browser security, AI-provider boundaries, commerce integrations, privacy, CI, deployment, and production-readiness evidence.
+
 ## Project Status
 **Active development · Private source · Portfolio showcase**
 
