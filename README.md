@@ -6,7 +6,7 @@
 
 The public showcase uses **sanitized portfolio previews based on the project's real UI structure and workflows**. All stores, URLs, API values, and product data shown below are demonstration-only.
 
-### Multi-tenant Admin Dashboard
+### 01 · Multi-tenant Control Center
 The admin experience represents connected client stores, activation state, store type, AI persona, WooCommerce endpoint, and scoped API access.
 
 ![Nexus AI admin overview](assets/nexus-admin-overview.png)
@@ -18,7 +18,7 @@ The admin experience represents connected client stores, activation state, store
 
 The additional views show the sanitized tenant onboarding flow and a portfolio-safe representation of how store configuration connects to the embedded assistant and central API.
 
-### AI Commerce Robot
+### 02 · Product-aware AI Persona
 The project includes an interactive robot persona designed to react to product context and present targeted commerce prompts inside an e-commerce experience.
 
 ![Nexus AI robot phone recommendation](assets/nexus-robot-phone.png)
@@ -30,7 +30,7 @@ The project includes an interactive robot persona designed to react to product c
 
 These previews demonstrate the same commerce-assistant concept reacting to different product contexts rather than presenting a single static marketing screen.
 
-### Client Store Integration
+### 03 · Embedded Store Experience
 A separate demo storefront illustrates the client-side integration model: an external store activates Nexus AI and receives an embedded commerce-support experience.
 
 ![Nexus AI client welcome state](assets/nexus-client-welcome.png)
@@ -47,11 +47,11 @@ The three client-side states represent assistant activation, contextual recommen
 ## Overview
 Nexus AI explores a centralized AI service for multiple e-commerce clients. Each connected store can be represented as an independent tenant with its own configuration, store type, AI persona, API access, and commerce integration.
 
-## Engineering Areas
-- FastAPI-based central backend
-- Multi-tenant store configuration
+## What the system demonstrates
+- Central FastAPI service coordinating multiple client stores
+- Tenant-scoped store configuration and sanitized admin summaries
 - SQLAlchemy persistence with local SQLite fallback and PostgreSQL-ready configuration
-- Store-specific API-key access
+- Store-specific API-key access with masked admin presentation
 - Dynamic AI persona selection
 - WooCommerce-oriented integration layer
 - Embeddable client-side AI widget architecture
