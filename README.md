@@ -8,19 +8,19 @@ The screenshots below are captured from the **actual running Nexus AI applicatio
 
 ### 01 · Multi-tenant Control Center
 
-![Nexus AI real admin control center](./assets/nexus-admin-overview.png)
+![Nexus AI real admin control center](./assets/nexus-admin-real.png)
 
 The control center manages connected stores, activation state, store type, AI persona and scoped access while keeping commerce credentials out of the public portfolio.
 
 ### 02 · NEO — Nexus Commerce Persona
 
-![NEO real Nexus AI commerce persona](./assets/nexus-robot-perfume.png)
+![NEO real Nexus AI commerce persona](./assets/nexus-neo-real.png)
 
 NEO is the Nexus visual commerce persona: a responsive assistant identity designed to react to product context and guide shoppers without presenting a generic chatbot experience.
 
 ### 03 · Embedded Store Experience
 
-![Nexus AI real embedded storefront](./assets/nexus-client-welcome.png)
+![Nexus AI real embedded storefront](./assets/nexus-store-real.png)
 
 The client storefront demonstrates how Nexus AI appears inside a commerce experience while the central service remains responsible for tenant configuration and assistant behavior.
 
