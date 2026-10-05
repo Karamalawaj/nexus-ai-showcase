@@ -1,72 +1,58 @@
 # Nexus AI
 
-> Private AI-enabled SaaS backend and e-commerce assistant platform.
+> AI-powered multi-tenant commerce assistant built around a central FastAPI service, store-aware AI personas and WooCommerce-oriented integration.
 
-## Product Preview
+## Real Application Preview
 
-The public showcase uses **sanitized portfolio previews based on the project's real UI structure and workflows**. All stores, URLs, API values, and product data shown below are demonstration-only.
+The screenshots below are captured from the **actual running Nexus AI application**. The source repository remains private; the portfolio publishes only safe visual output with demonstration data.
 
 ### 01 · Multi-tenant Control Center
-The admin experience represents connected client stores, activation state, store type, AI persona, WooCommerce endpoint, and scoped API access.
 
-![Nexus AI admin overview](assets/nexus-admin-overview.png)
+![Nexus AI real admin control center](assets/nexus-admin-real.png)
 
-<p align="center">
-  <img src="assets/nexus-admin-add-store.png" width="49%" alt="Nexus AI add-store workflow">
-  <img src="assets/nexus-admin-architecture.png" width="49%" alt="Nexus AI tenant architecture view">
-</p>
+The control center manages connected stores, activation state, store type, AI persona and scoped access while keeping commerce credentials out of the public portfolio.
 
-The additional views show the sanitized tenant onboarding flow and a portfolio-safe representation of how store configuration connects to the embedded assistant and central API.
+### 02 · NEO — Nexus Commerce Persona
 
-### 02 · Product-aware AI Persona
-The project includes an interactive robot persona designed to react to product context and present targeted commerce prompts inside an e-commerce experience.
+![NEO real Nexus AI commerce persona](assets/nexus-neo-real.png)
 
-![Nexus AI robot phone recommendation](assets/nexus-robot-phone.png)
-
-<p align="center">
-  <img src="assets/nexus-robot-perfume.png" width="49%" alt="Nexus AI perfume recommendation">
-  <img src="assets/nexus-robot-watch.png" width="49%" alt="Nexus AI watch recommendation">
-</p>
-
-These previews demonstrate the same commerce-assistant concept reacting to different product contexts rather than presenting a single static marketing screen.
+NEO is the Nexus visual commerce persona: a responsive assistant identity designed to react to product context and guide shoppers without presenting a generic chatbot experience.
 
 ### 03 · Embedded Store Experience
-A separate demo storefront illustrates the client-side integration model: an external store activates Nexus AI and receives an embedded commerce-support experience.
 
-![Nexus AI client welcome state](assets/nexus-client-welcome.png)
+![Nexus AI real embedded storefront](assets/nexus-store-real.png)
 
-<p align="center">
-  <img src="assets/nexus-client-recommendation.png" width="49%" alt="Nexus AI embedded recommendation">
-  <img src="assets/nexus-client-comparison.png" width="49%" alt="Nexus AI embedded comparison">
-</p>
+The client storefront demonstrates how Nexus AI appears inside a commerce experience while the central service remains responsible for tenant configuration and assistant behavior.
 
-The three client-side states represent assistant activation, contextual recommendation, and lightweight product comparison.
-
-> **Privacy note:** No real WooCommerce credentials, client secrets, production API keys, customer records, private infrastructure addresses, or production database data are published in these previews.
+> **Capture policy:** These images come from Nexus AI running through FastAPI and rendered in a real browser session. They are not separately designed HTML mockups. Demonstration store data is used so no production customer information or secrets are published.
 
 ## Overview
-Nexus AI explores a centralized AI service for multiple e-commerce clients. Each connected store can be represented as an independent tenant with its own configuration, store type, AI persona, API access, and commerce integration.
+
+Nexus AI explores a centralized AI service for multiple e-commerce clients. Each connected store is an independent tenant with its own configuration, store type, AI persona, API access and commerce integration.
 
 ## What the system demonstrates
+
 - Central FastAPI service coordinating multiple client stores
-- Tenant-scoped store configuration and sanitized admin summaries
-- SQLAlchemy persistence with local SQLite fallback and PostgreSQL-ready configuration
-- Store-specific API-key access with masked admin presentation
-- Dynamic AI persona selection
-- WooCommerce-oriented integration layer
+- Tenant-isolated chat sessions and bounded in-memory session handling
+- SQLAlchemy persistence with SQLite fallback and PostgreSQL-ready configuration
+- Store-specific API-key access with sanitized admin presentation
+- Dynamic AI persona selection and NEO commerce persona
+- WooCommerce-oriented product retrieval
 - Embeddable client-side AI widget architecture
-- Rate-limited chat API and origin-aware request handling
-- Admin and demonstration interfaces
+- Rate-limited chat API and origin-aware requests
+- Product-grounded assistant behavior with bounded conversation memory
+- Automated real-application visual acceptance through Playwright
 
 ## Tech Stack
-`Python` · `FastAPI` · `SQLAlchemy` · `SQLite / PostgreSQL` · `Jinja2` · `JavaScript` · `Google GenAI` · `WooCommerce`
+
+`Python` · `FastAPI` · `SQLAlchemy` · `SQLite / PostgreSQL` · `Jinja2` · `JavaScript` · `Google GenAI` · `WooCommerce` · `Playwright`
 
 ## Architecture Snapshot
 
 ```text
 Client Store
     │
-    ├── Embedded Nexus AI Widget
+    ├── Embedded Nexus AI / NEO
     │        │
     │        ▼
     └── Nexus AI Central API
@@ -77,22 +63,16 @@ Client Store
              └── Persistent Store Data
 ```
 
-This diagram intentionally stays at a portfolio-safe level and does not expose private infrastructure, secrets, internal deployment configuration, or proprietary implementation details.
-
-## Reusable Engineering Resource
-
-The repository now includes a practical, implementation-agnostic [AI Commerce SaaS Security & Readiness Checklist](docs/ai-commerce-saas-checklist.md) covering tenant isolation, API-key handling, widget/browser security, AI-provider boundaries, commerce integrations, privacy, CI, deployment, and production-readiness evidence.
-
 ## Project Status
-**Active development · Private source · Portfolio showcase**
 
-The working source repository remains private and protected.
+**Active development · Private source · Public portfolio showcase**
+
+The working source repository remains private and protected. The public repository intentionally contains portfolio-safe evidence rather than proprietary implementation code.
 
 ## Source Policy
-**Portfolio showcase only. Source code, credentials, production infrastructure details, proprietary logic, private integrations, and security-sensitive implementation details are intentionally not published.**
 
-## Preview Reproducibility
-The public showcase includes a small sanitized preview generator and GitHub Actions workflow used only to regenerate the portfolio screenshots. It contains demonstration UI data and does not mirror the private application source.
+**Portfolio showcase only. Source code, credentials, production infrastructure details, proprietary logic, private integrations and security-sensitive implementation details are intentionally not published.**
 
 ## Rights
-© Karam Alawaj. All rights reserved. No license is granted to copy, redistribute, reuse, or republish proprietary source or implementation details.
+
+© Karam Alawaj. All rights reserved. No license is granted to copy, redistribute, reuse or republish proprietary source or implementation details.
