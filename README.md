@@ -12,13 +12,41 @@ The screenshots below are captured from the **actual running Nexus AI applicatio
 
 The control center manages connected stores, activation state, store type, AI persona and scoped access while keeping commerce credentials out of the public portfolio.
 
-### 02 · NEO — Nexus Commerce Persona
+### 02 · NEO — Nexus AI Companion
 
 ![NEO real Nexus AI commerce persona](./assets/nexus-neo-real.png)
 
-NEO is the Nexus visual commerce persona: a responsive assistant identity designed to react to product context and guide shoppers without presenting a generic chatbot experience.
+NEO is evolving beyond a conventional chat surface into a visual AI companion that can observe workspace context, change behavior and communicate through motion as well as text.
 
-### 03 · Embedded Store Experience
+### 03 · NEO Interaction System
+
+NEO now has a visible interaction layer rather than a single static assistant state. These captures are produced after Playwright interacts with the real running Nexus AI application.
+
+#### NEO Lens · Workspace Scan
+
+![NEO Lens scanning the real Nexus AI workspace](./assets/nexus-neo-lens-real.png)
+
+**NEO Lens** switches the companion into an active analysis state. The workspace receives a live scan treatment and NEO exposes contextual signals such as stability, signal strength and action readiness without forcing the user into a chat window.
+
+#### NEO Focus · Contextual Attention
+
+![NEO focusing on a real Nexus AI workspace panel](./assets/nexus-neo-focus-real.png)
+
+**NEO Focus** lets the user select a workspace surface directly. NEO changes state, physically reacts toward the selected panel and creates a visual connection to the context it is reasoning about.
+
+#### NEO Risk · Intervention State
+
+![NEO risk intervention in the real Nexus AI application](./assets/nexus-neo-risk-real.png)
+
+**Risk mode** gives NEO a distinct intervention behavior for moments that deserve attention before an action continues. Its posture, eye/core treatment and message change together.
+
+#### Interaction model
+
+`Observe → Focus → Think → Act → Risk / Success`
+
+The engine also supports persistent panel selection, pointer-aware eye movement, state-specific body reactions, keyboard selection and reduced-motion behavior.
+
+### 04 · Embedded Store Experience
 
 ![Nexus AI real embedded storefront](./assets/nexus-store-real.png)
 
