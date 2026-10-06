@@ -1,6 +1,6 @@
 (() => {
   const DEFAULT_API_BASE = "https://nexus-ai-backend-dx6m.onrender.com";
-  const API_BASE = (window.NEXUS_NEO_API_BASE || DEFAULT_API_BASE).replace(/\/$/, "");
+  const API_BASE = DEFAULT_API_BASE;
   const SESSION_KEY = "nexus-neo-session-v1";
 
   function sessionId() {
@@ -45,7 +45,7 @@
       return;
     }
     window.NexusNEO.onMessage = askNeo;
-    window.dispatchEvent(new CustomEvent("nexus:neo-connected", {detail: {apiBase: API_BASE}}));
+    window.dispatchEvent(new CustomEvent("nexus:neo-connected"));
   }
 
   connect();
