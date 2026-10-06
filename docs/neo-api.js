@@ -14,7 +14,7 @@
 
   async function askNeo(message) {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 20000);
+    const timeout = setTimeout(() => controller.abort(), 60000);
     try {
       const response = await fetch(API_BASE + "/api/neo/chat", {
         method: "POST",
@@ -30,7 +30,10 @@
       if (!data.reply) throw new Error("Empty NEO response");
       return data.reply;
     } catch (error) {
-      return "⚠️ " + (error && error.message ? error.message : "تعذّر الاتصال بخدمة NEO.");
+      if (error && (error.name === "AbortError" || /aborted/i.test(error.message || ""))) {
+        return "استغرقت الاستجابة وقتاً أطول من المتوقع. جرّب إرسال الرسالة مرة أخرى.";
+      }
+      return "تعذّر الاتصال بـ NEO الآن. جرّب مرة أخرى بعد لحظات.";
     } finally {
       clearTimeout(timeout);
     }
