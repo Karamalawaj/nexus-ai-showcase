@@ -25,10 +25,12 @@
       let data = {};
       try { data = await response.json(); } catch (_) {}
       if (!response.ok) {
-        throw new Error(data.detail || "NEO service unavailable");
+        throw new Error(data.detail || ("NEO HTTP " + response.status));
       }
       if (!data.reply) throw new Error("Empty NEO response");
       return data.reply;
+    } catch (error) {
+      return "⚠️ " + (error && error.message ? error.message : "تعذّر الاتصال بخدمة NEO.");
     } finally {
       clearTimeout(timeout);
     }
