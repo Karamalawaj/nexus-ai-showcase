@@ -1,4 +1,4 @@
-# Nexus AI
+# [Nexus AI](https://karamalawaj.github.io/nexus-ai-showcase/)
 
 > AI-powered multi-tenant commerce assistant built around a central FastAPI service, store-aware AI personas and WooCommerce-oriented integration.
 
@@ -15,7 +15,7 @@ An original modular robot concept for Nexus AI, modelled in Blender and brought 
 
 **This is an interactive visual design prototype with illustrative local replies. It is not connected to the private Nexus AI backend or live store data.** The public page contains only this demonstration's browser assets; the commerce platform source, credentials and customer data remain private.
 
-![NEO — Nexus AI 3D companion](./assets/neo-companion.png)
+[![NEO — Nexus AI 3D companion](./assets/neo-companion.png)](https://karamalawaj.github.io/nexus-ai-showcase/)
 
 ## Real Application Preview
 
