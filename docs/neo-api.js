@@ -1,5 +1,5 @@
 (() => {
-  const DEFAULT_API_BASE = "https://nexus-ai-central-brain.onrender.com";
+  const DEFAULT_API_BASE = "https://nexus-ai-backend-dx6m.onrender.com";
   const API_BASE = (window.NEXUS_NEO_API_BASE || DEFAULT_API_BASE).replace(/\/$/, "");
   const SESSION_KEY = "nexus-neo-session-v1";
 
