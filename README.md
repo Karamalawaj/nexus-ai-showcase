@@ -2,6 +2,21 @@
 
 > AI-powered multi-tenant commerce assistant built around a central FastAPI service, store-aware AI personas and WooCommerce-oriented integration.
 
+## NEO · Interactive 3D Companion
+
+[**Launch the interactive NEO experience →**](https://karamalawaj.github.io/nexus-ai-showcase/)
+
+An original modular robot concept for Nexus AI, modelled in Blender and brought to life in a self-contained Three.js experience. NEO has a ceramic and titanium shell, cyan optical details, an orbital stabilizer and an animated ion thruster.
+
+- More than 20 motion and expression states: hover, greeting, flight, joy, thinking, wink, curiosity, mechanical sneeze, look-around, stretch, nod, head shake, bow, scan, peek, dance, surprise, sleepiness, orbit, shyness and conversation transformation.
+- Independent head and eye attention follows the pointer. An optional autonomous personality adds occasional gestures; reduced-motion controls remain available.
+- The body separates around a conversation card while the eyes remain above it. Typing and thinking affect the expression; the close button, Escape and End conversation reassemble NEO.
+- Time-based transitions stop exactly at their endpoints and blend smoothly between gestures.
+
+**This is an interactive visual design prototype with illustrative local replies. It is not connected to the private Nexus AI backend or live store data.** The public page contains only this demonstration's browser assets; the commerce platform source, credentials and customer data remain private.
+
+![NEO — Nexus AI 3D companion](./assets/neo-companion.png)
+
 ## Real Application Preview
 
 The screenshots below are captured from the **actual running Nexus AI application**. The source repository remains private; the portfolio publishes only safe visual output with demonstration data.
