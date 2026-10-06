@@ -6,14 +6,15 @@
 
 [**Launch the interactive NEO experience →**](https://karamalawaj.github.io/nexus-ai-showcase/)
 
-An original modular robot concept for Nexus AI, modelled in Blender and brought to life in a self-contained Three.js experience. NEO has a ceramic and titanium shell, cyan optical details, an orbital stabilizer and an animated ion thruster.
+An original modular robot for Nexus AI, modelled in Blender and brought to life in Three.js. NEO has a pearl ceramic and titanium shell, cyan optics, a warm metallic trim and a flowing ion thruster.
 
-- More than 20 motion and expression states: hover, greeting, flight, joy, thinking, wink, curiosity, mechanical sneeze, look-around, stretch, nod, head shake, bow, scan, peek, dance, surprise, sleepiness, orbit, shyness and conversation transformation.
-- Independent head and eye attention follows the pointer. An optional autonomous personality adds occasional gestures; reduced-motion controls remain available.
-- The body separates around a conversation card while the eyes remain above it. Typing and thinking affect the expression; the close button, Escape and End conversation reassemble NEO.
-- Time-based transitions stop exactly at their endpoints and blend smoothly between gestures.
+- 21 expressive performances: jumps, aerial backflips, high flight, distant orbits, playful ball chasing, fire, magic, an orbital transformation and smaller conversational gestures.
+- Pointer-aware eyes and independent head motion; touch reactions and a context-sensitive idle director avoid a fixed repeating gesture sequence.
+- The real NEXUS backend selects a validated performance alongside each AI reply. Ambitious performances briefly return NEO to the stage while retaining the conversation.
+- Voice messages, spoken replies, audio-driven mouth movement and optional sound effects. Microphone capture begins only on an explicit tap and stops after silence or 20 seconds. Cloud speech falls back to the device voice when unavailable; browser support and permissions affect recording.
+- A clean interface without an animation menu, responsive mobile conversation layout, animated disassembly/reassembly, keyboard-aware sizing and reduced-motion controls.
 
-**This is an interactive visual design prototype with illustrative local replies. It is not connected to the private Nexus AI backend or live store data.** The public page contains only this demonstration's browser assets; the commerce platform source, credentials and customer data remain private.
+**Connected to the real NEXUS AI conversation service.** This portfolio experience does not expose live store data. Authoring files, backend logic and API credentials stay in a private repository. The public page serves the compiled assets necessary to run the browser experience.
 
 [![NEO — Nexus AI 3D companion](./assets/neo-companion.png)](https://karamalawaj.github.io/nexus-ai-showcase/)
 
@@ -114,7 +115,7 @@ The working source repository remains private and protected. The public reposito
 
 ## Source Policy
 
-**Portfolio showcase only. Source code, credentials, production infrastructure details, proprietary logic, private integrations and security-sensitive implementation details are intentionally not published.**
+**Portfolio showcase only.** Backend source, credentials, private integrations and authoring files are not published. The live demo necessarily delivers compiled JavaScript and 3D assets to the browser; minification and omitted source maps do not make those assets impossible to inspect or copy. Copyright restrictions apply to the proprietary artwork and implementation. Third-party license notices are retained.
 
 ## Rights
 
