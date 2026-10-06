@@ -1,4 +1,4 @@
-# [Nexus AI](https://karamalawaj.github.io/nexus-ai-showcase/)
+# [Nexus AI](https://github.com/Karamalawaj/nexus-ai-showcase)
 
 > AI-powered multi-tenant commerce assistant built around a central FastAPI service, store-aware AI personas and WooCommerce-oriented integration.
 
