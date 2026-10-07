@@ -6,13 +6,14 @@
 
 [**Launch the interactive NEO experience →**](https://karamalawaj.github.io/nexus-ai-showcase/)
 
-An original modular robot for Nexus AI, modelled in Blender and brought to life in Three.js. NEO has a pearl ceramic and titanium shell, cyan optics, a warm metallic trim and a flowing ion thruster.
+A newly modelled, articulated Blender robot with 36 joints, ceramic armour, turbine ears, mechanical fingers and a reactive illuminated face.
 
-- 21 expressive performances: jumps, aerial backflips, high flight, distant orbits, playful ball chasing, fire, magic, an orbital transformation and smaller conversational gestures.
-- Pointer-aware eyes and independent head motion; touch reactions and a context-sensitive idle director avoid a fixed repeating gesture sequence.
-- The real NEXUS backend selects a validated performance alongside each AI reply. Ambitious performances briefly return NEO to the stage while retaining the conversation.
-- Voice messages, spoken replies, audio-driven mouth movement and optional sound effects. Microphone capture begins only on an explicit tap and stops after silence or 20 seconds. Cloud speech falls back to the device voice when unavailable; browser support and permissions affect recording.
-- A clean interface without an animation menu, responsive mobile conversation layout, animated disassembly/reassembly, keyboard-aware sizing and reduced-motion controls.
+- 30 expressive performances: anticipation and landing, jumps, backflips, rolls, rocket flight, distant orbits, dancing, fire, magic and compact transformation.
+- Volumetric exhaust, velocity-aware particles, engine light, shadows and five lighting environments.
+- Eight playable games: light catcher, meteor dodge, colour memory, rhythm, fireworks, orbital racing, target practice and keep-up. Ask NEO to start one.
+- Native streaming voice with microphone input, interruption, spoken stories and short original vocal performances. Voice requires permission and a supported secure browser; each demo voice connection lasts up to three minutes. Singing quality depends on the voice model.
+- Validated AI decisions select movement, lighting and games. Independent idle behaviour and pointer/touch reactions keep NEO expressive between turns.
+- Responsive chat with the animated head above the conversation, smooth disassembly/reassembly and keyboard-aware mobile sizing. No animation menu.
 
 **Connected to the real NEXUS AI conversation service.** This portfolio experience does not expose live store data. Authoring files, backend logic and API credentials stay in a private repository. The public page serves the compiled assets necessary to run the browser experience.
 
