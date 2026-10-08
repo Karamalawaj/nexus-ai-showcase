@@ -6,8 +6,9 @@
 
 [**Launch the interactive NEO experience →**](https://karamalawaj.github.io/nexus-ai-showcase/)
 
-NEO Bloom is a soft ceramic companion with a rounded face, expressive eyes, warm rose trim and a little floating garden. The original Blender model has 36 articulated joints. The garden includes flowers, a pond, lanterns, clouds and distant islands, with batched geometry and instanced flowers for smoother rendering.
+NEO Bloom is a soft ceramic companion with a rounded face, expressive eyes, blue trim by default, an optional rose palette and a little floating garden. The original Blender model has 36 articulated joints. The garden includes flowers, a pond, lanterns, clouds and distant islands, with batched geometry and instanced flowers for smoother rendering.
 
+- Live game awareness: NEO follows the next star, falling seeds and approaching gates, reacts to actual successes and setbacks, and offers brief contextual voice encouragement when sound is enabled. Damped joint springs add inertia and limit elbows, knees and ankles.
 - Thirty contextual gestures and performances, pointer/touch reactions, smooth chat transformation and a responsive mobile layout.
 - Three redesigned games with cohesive pastel graphics, progress, clear outcomes and saved local records: **Garden of Wishes** grows flowers from twenty collected seeds; **Star Painter** reveals three constellation drawings; **Cloud Mail** delivers twelve letters through golden gates.
 - Native streaming conversation with a gentle voice by default and a second warm voice in settings. Speech drives the face. Stories and short original vocal performances depend on the voice model; singing quality is not guaranteed.
