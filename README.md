@@ -17,7 +17,7 @@ NEO Bloom is a soft ceramic companion with a rounded face, expressive eyes, blue
 
 **Connected to the real NEXUS AI conversation service.** This portfolio experience does not expose live store data. Authoring files, backend logic and API credentials stay in a private repository. The public page serves the compiled assets necessary to run the browser experience.
 
-[![NEO — Nexus AI 3D companion](./assets/neo-companion.png)](https://karamalawaj.github.io/nexus-ai-showcase/)
+[![NEO — Nexus AI 3D companion](./assets/neo-bloom.jpg)](https://karamalawaj.github.io/nexus-ai-showcase/)
 
 ## Real Application Preview
 
