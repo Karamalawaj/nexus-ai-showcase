@@ -6,14 +6,13 @@
 
 [**Launch the interactive NEO experience →**](https://karamalawaj.github.io/nexus-ai-showcase/)
 
-A newly modelled, articulated Blender robot with 36 joints, ceramic armour, turbine ears, mechanical fingers and a reactive illuminated face.
+NEO Bloom is a soft ceramic companion with a rounded face, expressive eyes, warm rose trim and a little floating garden. The original Blender model has 36 articulated joints. The garden includes flowers, a pond, lanterns, clouds and distant islands, with batched geometry and instanced flowers for smoother rendering.
 
-- 30 expressive performances: anticipation and landing, jumps, backflips, rolls, rocket flight, distant orbits, dancing, fire, magic and compact transformation.
-- Volumetric exhaust, velocity-aware particles, engine light, shadows and five lighting environments.
-- Eight playable games: light catcher, meteor dodge, colour memory, rhythm, fireworks, orbital racing, target practice and keep-up. Ask NEO to start one.
-- Native streaming voice with microphone input, interruption, spoken stories and short original vocal performances. Voice requires permission and a supported secure browser; each demo voice connection lasts up to three minutes. Singing quality depends on the voice model.
-- Validated AI decisions select movement, lighting and games. Independent idle behaviour and pointer/touch reactions keep NEO expressive between turns.
-- Responsive chat with the animated head above the conversation, smooth disassembly/reassembly and keyboard-aware mobile sizing. No animation menu.
+- Thirty contextual gestures and performances, pointer/touch reactions, smooth chat transformation and a responsive mobile layout.
+- Three redesigned games with cohesive pastel graphics, progress, clear outcomes and saved local records: **Garden of Wishes** grows flowers from twenty collected seeds; **Star Painter** reveals three constellation drawings; **Cloud Mail** delivers twelve letters through golden gates.
+- Native streaming conversation with a gentle voice by default and a second warm voice in settings. Speech drives the face. Stories and short original vocal performances depend on the voice model; singing quality is not guaranteed.
+- Microphone input begins on an explicit tap and stops when disconnected, when closing chat or when hiding the page. Voice requires permission and a supported secure browser. Each demo voice connection lasts up to three minutes.
+- Validated AI tools choose movement, lighting and games. Reduced-motion controls preserve essential game input, and rendering resolution adapts to sustained slow frames.
 
 **Connected to the real NEXUS AI conversation service.** This portfolio experience does not expose live store data. Authoring files, backend logic and API credentials stay in a private repository. The public page serves the compiled assets necessary to run the browser experience.
 
